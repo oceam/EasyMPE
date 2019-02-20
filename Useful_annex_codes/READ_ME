@@ -1,0 +1,17 @@
+Those codes are either judged as useful in regard of the EasyMPE outputs or were used to get results for the publication.
+
+Here are the explanations for each code:
+  - Intersection_over_union (folder) contains the codes used to get the Intersection Over Union ratio that characterizes how overlapped
+    two area are. In the context of this code, handmade microplots and EasyMPE microplots were compared. These codes are useful if you
+    want to judge by yourself the efficiency of the EasyMPE program. All details are displayed at the start of the IOU_ratio.py.
+  - Reverse_calculation (folder) contains the codes to make a reverse calculation without using EasyMPE.
+          _ Reverse_calculation.py is the code to make the reverse calculation.
+          _ Plot_all_raw_image.py allows to get an image with all the plot position in the different raw image so the best one can be
+            chosen according to the user needs
+          _ Cropping_raw_image.py allows to the designated plot from the indicated raw drone image.
+  - Merge_shp.py allows to merge individual files with the same nature (such as file from the SHP_files folder from the EasyMPE outputs)
+  - get_coordinates_from_shp.py gets the geo-referenced coordinates of the inputted shp folder
+  - get_tiff_from_shp.py cut a tiff file following files from a shapefile folder. It does not use GDAL.
+  - make_raster_from_arrays.py allows to georeference a non-georeferenced image. Useful if the EasyMPE code needs the binarization to be
+    done already and if the user still wants to do the reverse calculation.
+  - make_shp_from_coord.py makes shp files based on the input coordinates and a georeferenced raster.
