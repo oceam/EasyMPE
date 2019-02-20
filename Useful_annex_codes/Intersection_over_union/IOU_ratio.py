@@ -5,7 +5,14 @@ Created on Sun Jan  6 09:03:21 2019
 @author: leatr
 
 calculate the Intersection Over Union ratio based on specific inputs
-(as the output of get_IOU_coordinates).
+Text file must have 8 columns as:
+    y_1, x_1, y_2, x_2, y_3, x_3, y_4, x_4
+which can be obtained by running:
+    - Get_IOU_coordinates.py over the Plot_original_whole folder of the EasyMPE
+    output
+    - get_coordinates_from_shp.py over the SHP_files folder of the EasyMPE output
+    (georeferenced coordinates will be outputted, which might be less precise as
+    the coordinates will not have decimals)
 """
 ###############################################################################
 #################################### ENV ######################################
