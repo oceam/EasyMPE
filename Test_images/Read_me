@@ -1,0 +1,14 @@
+There is a total of 6 trial images:
+  - Soybean Tanashi
+  - Soybean Tsukuba
+  - Sugar beet Memuro Field 1
+  - Sugar beet Memuro Field 2
+  - Sugar beet Memuro Hybrid
+  - Sugar beet Memuro Production
+The input parameters can be see in the file 'Test_images_parameters'.
+For each field, the base image has been uploaded as well as an image with the field delimitation used in the trials.
+
+For Memuro Field 1 & 2, the binary images has been used. The original images are available but the code will not work with
+them (binarization not working).
+For Tsukuba, the original image used too much memory for the computer used for the trials. It has been thus resized. The resized version
+is not georeferenced. Thus, the reverse calculation cannot be done.
