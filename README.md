@@ -2,7 +2,7 @@
 Easy micro-plot extraction: a pre-processing tool to extract quality micro-plot images for UAV-based high-throughput field phenotyping
 
 Source code and software coming soon.
-All data is freely available. Results published can be reproduced.
+All data is freely available. Published results can be reproduced with the provided data.
 
 ## Contributors
 Léa Tresch (algorithm and Python code)<br/>
