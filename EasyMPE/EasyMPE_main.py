@@ -3,7 +3,7 @@
 """
 
 2019, L. Tresch for University of Tokyo, Field Phenomics Research Laboratory
-Please read the read_me.txt for furter information.
+Please read the read_me.txt for further information.
 
 Reverse calculation code is based on Pix4D outputs and Pix4D explanations.
 
