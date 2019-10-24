@@ -1,5 +1,5 @@
 # EasyMPE
-Easy micro-plot extraction: a pre-processing tool to extract quality micro-plot images for UAV-based high-throughput field phenotyping 
+Easy micro-plot extraction: a pre-processing tool to extract quality micro-plot images for UAV-based high-throughput field phenotyping.  
 Version 1: https://www.biorxiv.org/content/10.1101/745752v1.full　
 
 Source code released.
